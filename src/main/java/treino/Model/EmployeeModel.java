@@ -21,10 +21,6 @@ public class EmployeeModel{
 
     @Override
     public String toString() {
-        return "EmployeeModel{" +
-                "Id=" + Id +
-                ", name='" + name + '\'' +
-                ", age=" + age +
-                '}';
+        return "Id: " + Id + "\nNome: " + name + "\nIdade: " + age;
     }
 }
